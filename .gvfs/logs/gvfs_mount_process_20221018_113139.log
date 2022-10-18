@@ -1,0 +1,31 @@
+[2022-10-18 11:31:40.0518 -03:00] GVFSMount (Start) {"Version":"1.0.21229.1","EnlistmentRoot":"C:\\repositorios\\Pessoais\\AZ-400-studies\\RODS_LARGE_FILES","Remote":"https://cloudops-team@dev.azure.com/cloudops-team/Rods/_git/RODS_LARGE_FILES","ObjectsEndpoint":"https://cloudops-team@dev.azure.com/cloudops-team/Rods/_git/RODS_LARGE_FILES","IsElevated":true,"EnlistmentRootPathParameter":"C:\\repositorios\\Pessoais\\AZ-400-studies\\RODS_LARGE_FILES","StartedByService":"False","StartedByVerb":true}
+[2022-10-18 11:31:40.8840 -03:00] RetryConfig_LoadedRetryConfig {"Area":"RetryConfig","Timeout":"00:00:30","MaxRetries":6,"Message":"RetryConfigLoaded"}
+[2022-10-18 11:31:41.3120 -03:00] GitStatusCacheConfig_Loaded {"Area":"GitStatusCacheConfig","BackOffTime":"00:00:02","Message":"GitStatusCacheConfigLoaded"}
+[2022-10-18 11:31:41.4000 -03:00] CachePathsLoaded {"gitObjectsRoot":"C:\\.gvfsCache\\56c2ea841936487f8028ea3fcd21f00b\\gitObjects","localCacheRoot":"C:\\.gvfsCache","blobSizesRoot":"C:\\.gvfsCache\\56c2ea841936487f8028ea3fcd21f00b\\blobSizes"}
+[2022-10-18 11:31:41.4080 -03:00] Mount_StartedNamedPipe {"NamedPipeName":"GVFS_C_\\REPOSITORIOS\\PESSOAIS\\AZ-400-STUDIES\\RODS_LARGE_FILES"}
+[2022-10-18 11:31:41.4440 -03:00] AttemptAnonymousAuth (Start)
+[2022-10-18 11:31:41.8590 -03:00] NetworkResponse {"RequestId":1,"availableConnections":8,"CacheName":"","StatusCode":401,"connectionWaitTimeMS":"0,0046","responseWaitTimeMS":"273,7501"}
+[2022-10-18 11:31:41.8690 -03:00] AttemptAnonymousAuth (Stop) {"HttpStatus":"401","QuerySucceeded":true,"IsAnonymous":false,"DurationMs":423}
+[2022-10-18 11:31:41.8700 -03:00] TryGetCredential (Start)
+[2022-10-18 11:31:43.0052 -03:00] TryGetCredential (Stop) {"Success":true,"DurationMs":1134}
+[2022-10-18 11:31:43.0602 -03:00] Information {"Message":"Git status cache is not enabled"}
+[2022-10-18 11:31:43.2092 -03:00] Information {"Message":"BlobSize.Initialize: setting user_version to 1"}
+[2022-10-18 11:31:43.2102 -03:00] BlobSize_Initialize_db_settings {"Area":"BlobSizes","synchronous":2}
+[2022-10-18 11:31:43.2542 -03:00] FileSystemCallbacks_Constructor {"placeholders.Count":0,"background.Count":0,"Message":"FileSystemCallbacks created"}
+[2022-10-18 11:31:43.2612 -03:00] RemoveEntriesWithParentFolderEntry (Start)
+[2022-10-18 11:31:43.2622 -03:00] RemoveEntriesWithParentFolderEntry (Stop) {"startingCount":1,"EndCount":1,"DurationMs":0}
+[2022-10-18 11:31:43.2852 -03:00] ParseGitIndex (Start)
+[2022-10-18 11:31:43.2992 -03:00] Information {"Message":"Finished parsing 2 index entries."}
+[2022-10-18 11:31:43.3002 -03:00] ShrinkPool (Start)
+[2022-10-18 11:31:43.3002 -03:00] ShrinkPool (Stop) {"Area":"GitIndexProjection","PoolType":"FolderData","CurrentSize":100,"didShrink":true,"shrinkToSize":0,"DurationMs":0}
+[2022-10-18 11:31:43.3002 -03:00] ShrinkPool (Start)
+[2022-10-18 11:31:43.3002 -03:00] ShrinkPool (Stop) {"Area":"GitIndexProjection","PoolType":"FileData","CurrentSize":100,"didShrink":true,"shrinkToSize":1,"DurationMs":0}
+[2022-10-18 11:31:43.3012 -03:00] ShrinkPool (Start)
+[2022-10-18 11:31:43.3012 -03:00] ShrinkPool (Stop) {"Area":"GitIndexProjection","PoolType":"Byte","CurrentSize":100,"didShrink":true,"shrinkToSize":10,"DurationMs":0}
+[2022-10-18 11:31:43.3012 -03:00] ShrinkPool (Start)
+[2022-10-18 11:31:43.3012 -03:00] ShrinkPool (Stop) {"Area":"GitIndexProjection","PoolType":"LazyUTF8String","CurrentSize":100,"didShrink":true,"shrinkToSize":1,"DurationMs":0}
+[2022-10-18 11:31:43.3012 -03:00] ParseGitIndex (Stop) {"Area":"GitIndexProjection","SortedFolderEntries_FolderPoolSize":0,"SortedFolderEntries_FilePoolSize":1,"LazyUTF8String_StringPoolSize":1,"LazyUTF8String_BytePoolSize":10,"DurationMs":16}
+[2022-10-18 11:31:43.3062 -03:00] InitializeEnumerationPatternMatcher {"projFSPatternMatchingWorks":true}
+[2022-10-18 11:31:43.3242 -03:00] Mount {"Message":"Virtual repo is ready"}
+[2022-10-18 11:32:41.5420 -03:00] QueryFileSizes {"RequestId":2,"ObjectIdJson":"[\"0CA446AAB9D09EAC8625B53E3DF8DA661976C458\"]"}
+[2022-10-18 11:32:42.7750 -03:00] NetworkResponse {"RequestId":2,"availableConnections":8,"CacheName":"","StatusCode":200,"ContentType":"application/json","connectionWaitTimeMS":"0,0024","responseWaitTimeMS":"134,5636"}
